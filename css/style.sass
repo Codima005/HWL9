@@ -1,0 +1,40 @@
+$black--color: #353c4d
+
+html, body
+	font-family: 'Nerko One', cursive
+	color: $black--color
+	font-size: 20px
+	svg, img
+		height: 15px
+
+.wrapper
+	width: 900px
+	display: flex
+	flex-wrap: wrap
+	align-items: flex-start
+	justify-content: center
+	background: #55aa55
+	border-radius: 6px
+	padding: 10px
+
+.card
+	width: 100px
+	height: 150px
+	border-radius: 6px
+	background: white
+	padding: 5px
+	box-sizing: border-box
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	margin: 3px 6px
+	&--person
+		.person
+			height: 50px
+	&__info
+		display: flex
+		align-items: center
+		&:last-of-type
+			justify-content: flex-end
+		img
+			margin-left: 5px

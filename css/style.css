@@ -1,0 +1,44 @@
+html, body {
+  font-family: "Nerko One", cursive;
+  color: #353c4d;
+  font-size: 20px; }
+  html svg, html img, body svg, body img {
+    height: 15px; }
+
+.wrapper {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  background: #55aa55;
+  border-radius: 6px;
+  padding: 10px; }
+
+.card {
+  width: 100px;
+  height: 150px;
+  border-radius: 6px;
+  background: white;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3px 6px; }
+  .card--person .person {
+    height: 50px; }
+  .card__info {
+    display: flex;
+    align-items: center; }
+    .card__info:last-of-type {
+      justify-content: flex-end; }
+    .card__info img {
+      margin-left: 5px; }
+
+  .direction {
+    display: flex;
+    flex-direction: row;
+  }    
+
+/*# sourceMappingURL=style.css.map */
